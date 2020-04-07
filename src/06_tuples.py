@@ -36,9 +36,23 @@ print("Distance is: {:.2f}".format(dist(a, b)))
 
 # YOUR CODE HERE
 
+
+#what happens if I just print(t)? 
+#       It just returns the first number in the tuple
+#do I need to use a loop?
+#if so is that the best way to do it?
+#is this somewhere that reach could be used?
+# can I hook up range() to .len() <- or whatever the python equivalent is?
+
+
+def print_tuple(tuple):
+        for i in tuple:
+            print(i)
+
+
 t = (1, 2, 5, 7, 99)
 print_tuple(t)  # Prints 1 2 5 7 99, one per line
 
 # Declare a tuple of 1 element then print it
-u = (1)  # What needs to be added to make this work?
+u = (1,)  # What needs to be added to make this work?
 print_tuple(u)
