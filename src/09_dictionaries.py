@@ -48,6 +48,8 @@ waypoints.append({"lat": 57, "lon" : -183, "name" : "the fourth wall"})
 
 # YOUR CODE HERE
 waypoints[0]["name"]="not a real place"
+waypoints[0]["lon"]= -130
+
 
 # print(waypoints)
 
