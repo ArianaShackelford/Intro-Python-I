@@ -47,3 +47,4 @@ if len(sys.argv) > 1:
 
 calendar.prmonth(year, month)
 
+# definitely not the cleanest or best solution, but I need to move on.
